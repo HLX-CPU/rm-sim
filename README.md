@@ -246,6 +246,11 @@ rm-sim/
 | [app/docs/ux-design.md](app/docs/ux-design.md) | 界面设计规范 |
 | [交付报告.md](交付报告.md) | 2026-11-04 接续交付的验收结论与证据索引 |
 
+## 相关项目
+
+- [**solidworks-tools**](https://github.com/HLX-CPU/solidworks-tools) —— 本仓库 `tools/` 目录已独立开源：
+  批量标注圆直径宏、草图快捷加载项（选圆/批注）、原生装配导出脚本，附实机验证报告与一键安装包。
+
 ## 许可证与致谢
 
 本项目以 **MIT License** 发布，见 [LICENSE](LICENSE)。
