@@ -1,0 +1,9 @@
+case=case_001 job_finished=True ERROR=0 未绑定=0
+外力合力模=1.23214 N  支反力=[-0.0, 1.232136, 0.0]  残差=4.44e-09 N（0.000%）
+力矩残差=[-0.0, 0.0, -0.0] N·mm （相对 0.000% of W×49.0mm）
+max|U|=2.88388e-07 mm；各部件 max|U| 前 5：
+  PART2: 2.88388e-07 mm（4653 节点）
+  PART1: 2.14397e-07 mm（4611 节点）
+检查：{"job_finished": true, "no_solver_error": true, "untied_within_tolerance": true, "force_balance": true, "moment_balance": true, "displacements_finite": true, "no_runaway_part": true}
+连接仍待检查： False ；筛查通过不代表结构合格
+VERIFY_FULL_ASSEMBLY_SOLVE: PASS

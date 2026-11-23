@@ -1,0 +1,44 @@
+回归证据: E:\rm_sim\verification\regression_20261103_143006_531819
+main_entry [fast_config]: PASS exit=0 4.4s
+step_import [fast_config]: PASS exit=0 0.71s
+material_library [fast_config]: PASS exit=0 0.42s
+load_definition [fast_config]: PASS exit=0 0.6s
+mesh_generation [fast_config]: PASS exit=0 1.05s
+static_solve [real_small]: PASS exit=0 7.5s
+results_view [real_small]: PASS exit=0 4.17s
+report_archive [real_small]: PASS exit=0 5.77s
+relaunch [fast_config]: PASS exit=0 4.16s
+project_roundtrip [real_small]: PASS exit=0 14.98s
+assembly_import [fast_config]: PASS exit=0 0.82s
+assembly_loads [fast_config]: PASS exit=0 1.57s
+connection_model [fast_config]: PASS exit=0 0.4s
+assembly_solve [real_small]: PASS exit=0 10.42s
+bonded_connection [real_small]: PASS exit=0 13.84s
+contact_friction_connection [real_small]: PASS exit=0 328.23s
+bolt_pin_connection [real_small]: PASS exit=0 30.13s
+assembly_results [real_small]: PASS exit=0 29.9s
+assembly_example [real_small]: PASS exit=0 36.63s
+assembly_project_roundtrip [real_small]: PASS exit=0 61.34s
+gui_assembly [real_small]: PASS exit=0 28.83s
+assembly_geometry [fast_config]: PASS exit=0 0.62s
+history_restore [fast_config]: PASS exit=0 6.63s
+step_material_gate [fast_config]: PASS exit=0 2.14s
+contact_candidates [fast_config]: PASS exit=0 0.53s
+geometry_inspection_gui [fast_config]: PASS exit=0 1.35s
+invalid_mesh_gate [reliability]: PASS exit=0 0.77s
+connection_draft [real_small]: PASS exit=0 5.52s
+material_suggestions [fast_config]: PASS exit=0 0.61s
+scheduler_lifecycle [reliability]: PASS exit=0 4.08s
+tie_diagnostics [real_small]: PASS exit=0 2.68s
+solver_gui_lifecycle [reliability]: PASS exit=0 1.13s
+background_workflow [reliability]: PASS exit=0 23.86s
+tie_policy [real_small]: PASS exit=0 2.29s
+bond_band [real_small]: PASS exit=0 3.7s
+prepare_retry [reliability]: PASS exit=0 0.31s
+reaction_semantics [real_small]: PASS exit=0 3.13s
+local_mesh_controls [fast_config]: PASS exit=0 2.72s
+consistent_traction [real_small]: PASS exit=0 3.62s
+advanced_framework [fast_config]: PASS exit=0 0.77s
+REGRESSION: 40/40，失败=[]
+TIMING: wall=652.35s 检查合计=652.33s fast_config=17项/29.5s real_small=18项/592.68s reliability=5项/30.15s
+TIMING_JSON: E:\rm_sim\verification\regression_20261103_143006_531819\timing.json

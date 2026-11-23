@@ -1,0 +1,10 @@
+{
+  "ccxPath": "C:/CalculiX/ccx_2.22/ccx.exe",
+  "ccxVersion": "CalculiX 2.22",
+  "realCcxPath": "",
+  "ccxLauncherNote": "ccxPath 指向可直接运行的 CalculiX 可执行文件。Windows 上可用随包 launcher（ccx_launcher.exe，把 -v 的退出码 201 归一为 0）或官方 ccx_static.exe。",
+  "chronoPython": "C:/miniforge3/envs/rm_sim_chrono/python.exe",
+  "chronoNote": "运动仿真（Project Chrono）使用独立 Python 3.12 + PyChrono 10 环境，见 chrono-environment.yml；不用 Chrono 时可留空。",
+  "pythonExe": "",
+  "pythonNote": "留空表示使用启动 rm_sim 的解释器。"
+}

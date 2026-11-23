@@ -1,0 +1,10 @@
+{
+  "action": "assembly_new_solve",
+  "project_dir": "examples/assembly_contact",
+  "step_source": "samples/assembly_two_blocks.step",
+  "force_n": 1000.0,
+  "friction_mu": 0.3,
+  "mesh_size_mm": 2.0,
+  "gravity": true,
+  "result_path": "examples/assembly_contact/batch_result.json"
+}

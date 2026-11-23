@@ -1,0 +1,8 @@
+{
+  "action": "project_new_solve",
+  "project_dir": "examples/part_beam",
+  "step_source": "samples/beam_100x10x10.step",
+  "force_n": 100.0,
+  "mesh_size_mm": 2.0,
+  "result_path": "examples/part_beam/batch_result.json"
+}

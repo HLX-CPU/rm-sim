@@ -1,0 +1,5 @@
+{
+  "action": "chrono_demo",
+  "output_dir": "examples/chrono_demo",
+  "result_path": "examples/chrono_demo/batch_result.json"
+}

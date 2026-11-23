@@ -1,0 +1,9 @@
+usage: run_regression.py [-h] [--slow] [--framework-only] [checks ...]
+
+positional arguments:
+  checks
+
+options:
+  -h, --help        show this help message and exit
+  --slow            额外运行慢速检查（整装 20 实体连接草稿）
+  --framework-only  仅配置框架检查，不启动CAD、网格或求解器

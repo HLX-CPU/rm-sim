@@ -1,0 +1,7 @@
+{
+  "action": "modal_beam",
+  "project_dir": "examples/modal_beam",
+  "step_source": "samples/beam_100x10x10.step",
+  "modes": 6,
+  "result_path": "examples/modal_beam/batch_result.json"
+}

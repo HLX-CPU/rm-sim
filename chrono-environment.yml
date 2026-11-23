@@ -1,0 +1,7 @@
+name: rm_sim_chrono
+channels:
+  - projectchrono
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pychrono=10.0.0=py312h418371c_1198
